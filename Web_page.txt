@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portofolio</title>
+</head>
+
+<img src="C:\Users\GIMS\Desktop\111.png">
+<h1>About me</h1>
+
+<body>
+    <form action="post">
+        Name:<input type="textbox" name="Name" size="30" maxlength="50"> <br/><br/></form>
+
+    College:
+    <input type="textbox" name="College" size="30" maxlength="50"><br/><br/> Graduation Year<input type="number" name="Graduation Year" size="30" maxlength="50"><br/><br/> CGPA:
+    <input type="number" name="CGPA" size="30" maxlength="50"> </form><br/><br/> email:
+    <input type="textbox" name="email" size="30" maxlength="50"><br/><br/>
+    </form>
+    <table>
+        <tr>
+            <th><b>College</b></th>
+            <th><b>Courses</b></th>
+            <th><b>Percentage</b></th>
+            <th><b>Duration</b></th>
+        </tr>
+        <tr>
+            <td>Aligarh Muslim University</td>
+            <td>B.Tech</td>
+            <td>9.0</td>
+            <td>2019-2023</td>
+        </tr>
+        <tr>
+            <td>Aligarh Muslim University</td>
+            <td>Secondary school</td>
+            <td>85%</td>
+            <td>2016-2018</td>
+        </tr>
+        <tr>
+            <td>City School</td>
+            <td>High School</td>
+            <td>10</td>
+            <td>2014-2016</td>
+        </tr>
+    </table>
+    <h1>Skills</h1>
+    <ol type="1">
+        <li>Languages</li>
+        <ol type="1">
+            <li>C++</li>
+            <li>Python</li>
+            <li>Javascript</li>
+        </ol>
+        <li>Development</li>
+        <ol type="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+        </ol>
+        <li>Tools and Softwares</li>
+        <ol type="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+        </ol>
+        <h1><b>Contact me</b></h1>
+        <h3><b>Address:</b></h3>ABC, India
+        <h3><b>Email:</b></h3>almabetteradmission@gmail.com
+        <h3><b>Mobile No.</b></h3>9876543210<br/>
+
+        <form>
+            Name:<br/>
+            <input type="text" size="20" maxlength="30"><br/><br/> Email:
+            <br/>
+            <input type="text" size="20" maxlength="30"><br/><br/> Select your profession?
+            <select name="profession">
+                <option value="Professor">Professor</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Business man">Business man</option><br/>
+            </select> <br/><br/>Would you connect again?<br/>
+            <input type="radio" value="Yes">Yes
+            <input type="radio" value="No">No
+            <input type="radio" value="Maybe">maybe<br/><br/>
+
+            <input type="button" value="Send Message" </form><br/>
+
+            <br/>
+            <ul type="disc">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+                <li>LinkedIn</li>
+            </ul><br/><br/> Copyright @2022 all rights reserved
+</body>
+
+
+
+</html>
